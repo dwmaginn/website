@@ -1,0 +1,43 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+
+const metadata = { title: 'Our Customers' };
+---
+
+<Layout metadata={metadata}>
+  <Hero2
+    tagline="Happy Customers"
+    title="People Love Satispie"
+    subtitle="See what our fans have to say about their favorite frozen pies."
+    image={{
+      src: 'https://images.unsplash.com/photo-1603570418273-f999a0fe8d95?auto=format&fit=crop&w=1200&q=80',
+      alt: 'Family enjoying pie',
+    }}
+  />
+
+  <Testimonials
+    title="Testimonials"
+    testimonials={[
+      {
+        title: 'Delicious!',
+        testimonial: 'The apple pie tastes just like my grandmother used to make.',
+        name: 'Jane D.',
+        job: 'Pie Enthusiast',
+      },
+      {
+        title: 'Convenient',
+        testimonial: 'I love having a Satispie in my freezer for unexpected guests.',
+        name: 'Mike S.',
+        job: 'Busy Parent',
+      },
+      {
+        title: 'Great Service',
+        testimonial: 'Fast delivery and the pumpkin pie was a hit at our party.',
+        name: 'Alex R.',
+        job: 'Party Host',
+      },
+    ]}
+  />
+</Layout>

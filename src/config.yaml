@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: Satispie
+  site: 'https://satispie.example.com'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: Satispie
+    template: '%s — Satispie'
+  description: "Delicious frozen pies delivered straight from our ovens to your freezer."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Satispie
     images:
       - url: '~/assets/images/default.png'
         width: 1200
