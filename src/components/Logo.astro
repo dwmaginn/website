@@ -2,10 +2,15 @@
 import { SITE } from 'astrowind:config';
 ---
 
-<span
-  class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-4xl md:text-3xl font-bold text-primary whitespace-nowrap"
->
-  <!-- Replace the text below with your logo image if desired -->
-  <!-- <img src="/path/to/logo.png" alt="PH Paper logo" class="h-8 w-auto" /> -->
-  {SITE?.name}
-</span>
+<a href="/" class="flex items-center gap-2 self-center ml-2 rtl:ml-0 rtl:mr-2">
+  <!-- Your logo image (public/logo.png) -->
+  <img
+    src="/logo.png"
+    alt={SITE?.name ?? 'PH Paper'}
+    class="h-8 md:h-10 w-auto"   /* tweak height if you need it larger/smaller */
+    loading="lazy"
+    decoding="async"
+  />
+  <!-- Accessible text for screen-readers, hidden visually -->
+  <span class="sr-only">{SITE?.name}</span>
+</a>
