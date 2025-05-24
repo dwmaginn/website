@@ -1,6 +1,6 @@
 site:
-  name: Satispie
-  site: 'https://satispie.example.com'
+  name: PH Paper
+  site: 'https://phpaper.example.com'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: Satispie
-    template: '%s — Satispie'
-  description: "Delicious frozen pies delivered straight from our ovens to your freezer."
+    default: PH Paper
+    template: '%s — PH Paper'
+  description: "Science Driving Efficiency with innovative pH testing products."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: Satispie
+    site_name: PH Paper
     images:
       - url: '~/assets/images/default.png'
         width: 1200
