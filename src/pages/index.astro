@@ -5,47 +5,47 @@ import Features from '~/components/widgets/Features.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'Satispie — Frozen Pies',
+  title: 'PH Paper — Science Driving Efficiency',
 };
 ---
 
 <Layout metadata={metadata}>
   <Hero2
-    tagline="Welcome to Satispie"
-    title="Irresistible Frozen Pies"
-    subtitle="Hand crafted pies delivered right to your freezer."
+    tagline="Science Driving Efficiency"
+    title="Precision pH Measurement Solutions"
+    subtitle="Innovative testing tools for laboratories and industry."
     actions={[{ variant: 'primary', text: 'Shop Now', href: '/products' }]}
     image={{
-      src: 'https://images.unsplash.com/photo-1601050690188-2f26f1b74668?auto=format&fit=crop&w=1200&q=80',
-      alt: 'Freshly baked pie',
+      src: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1200&q=80',
+      alt: 'Lab technician using pH meter',
     }}
   />
 
   <Features
     id="features"
-    title="Why Choose Satispie?"
+    title="Why Choose PH Paper?"
     items={[
       {
-        title: 'Quality Ingredients',
-        description: 'Only the freshest fruit and finest pastry for a true homemade taste.',
-        icon: 'tabler:leaf',
+        title: 'Accurate Results',
+        description: 'Engineered for reliable pH readings in every test.',
+        icon: 'tabler:gauge',
       },
       {
-        title: 'Frozen for Convenience',
-        description: 'Keep a pie in your freezer and enjoy whenever you like.',
-        icon: 'tabler:snowflake',
+        title: 'Easy to Use',
+        description: 'Intuitive products designed for quick measurements.',
+        icon: 'tabler:click',
       },
       {
-        title: 'Nationwide Delivery',
-        description: 'We ship anywhere so you can enjoy Satispie wherever you are.',
-        icon: 'tabler:truck',
+        title: 'Expert Support',
+        description: 'Our team is ready to help you get the best from our tools.',
+        icon: 'tabler:lifebuoy',
       },
     ]}
   />
 
   <CallToAction
-    title="Ready for dessert?"
-    subtitle="Browse our selection of mouth‑watering pies."
+    title="Need precise measurements?"
+    subtitle="Discover our complete range of pH testing supplies."
     actions={[{ variant: 'primary', text: 'View Products', href: '/products' }]}
   />
 </Layout>
