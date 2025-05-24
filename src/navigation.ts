@@ -13,7 +13,7 @@ export const headerData = {
 export const footerData = {
   links: [
     {
-      title: 'Satispie',
+      title: 'PH Paper',
       links: [
         { text: 'Home', href: getPermalink('/') },
         { text: 'Products', href: getPermalink('/products') },
@@ -31,5 +31,5 @@ export const footerData = {
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
   ],
-  footNote: '© Satispie',
+  footNote: '© PH Paper',
 };
